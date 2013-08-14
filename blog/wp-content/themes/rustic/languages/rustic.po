@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rustic 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-30 04:06-0600\n"
+"PO-Revision-Date: 2011-11-30 04:06-0600\n"
+"Last-Translator: Patrick Bagby <gaga4ya@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+#: ../loop.php:33
+msgid "Not Found"
+msgstr ""
+
+#: ../404.php:18
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: ../archive.php:33
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:35
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:37
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:39
+msgid "Blog Archives"
+msgstr ""
+
+#: ../attachment.php:18
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: ../attachment.php:20
+#, php-format
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: ../attachment.php:29
+#, php-format
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: ../attachment.php:40
+#, php-format
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: ../attachment.php:50
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: ../attachment.php:53
+msgid "Link to full-size image"
+msgstr ""
+
+#: ../attachment.php:60
+#: ../attachment.php:107
+#: ../loop.php:96
+#: ../loop.php:119
+#: ../loop.php:161
+#: ../onecolumn-page.php:28
+#: ../page.php:33
+msgid "Edit"
+msgstr ""
+
+#: ../attachment.php:100
+#: ../functions.php:158
+#: ../loop.php:111
+#: ../loop.php:139
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../attachment.php:101
+#: ../loop.php:140
+#: ../onecolumn-page.php:27
+#: ../page.php:32
+msgid "Pages:"
+msgstr ""
+
+#: ../author.php:27
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../author.php:37
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../category.php:16
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../comments.php:18
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:41
+#: ../comments.php:60
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: ../comments.php:42
+#: ../comments.php:61
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: ../functions.php:124
+msgid "Primary Navigation"
+msgstr ""
+
+#: ../functions.php:224
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../functions.php:228
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:234
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:236
+#: ../functions.php:258
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:256
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions.php:278
+msgid "Primary Widget Area"
+msgstr ""
+
+#: ../functions.php:280
+msgid "The primary widget area"
+msgstr ""
+
+#: ../functions.php:289
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../functions.php:291
+msgid "The secondary widget area"
+msgstr ""
+
+#: ../functions.php:323
+#, php-format
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr ""
+
+#: ../functions.php:349
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../functions.php:351
+#, php-format
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../functions.php:353
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../header.php:33
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:87
+msgid "Skip to content"
+msgstr ""
+
+#: ../loop.php:25
+#: ../loop.php:174
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../loop.php:26
+#: ../loop.php:175
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../loop.php:35
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: ../loop.php:60
+#: ../loop.php:93
+msgid "gallery"
+msgstr ""
+
+#: ../loop.php:83
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr ""
+
+#: ../loop.php:93
+msgid "More Galleries"
+msgstr ""
+
+#: ../loop.php:95
+#: ../loop.php:118
+#: ../loop.php:160
+msgid "Leave a comment"
+msgstr ""
+
+#: ../loop.php:95
+#: ../loop.php:118
+#: ../loop.php:160
+msgid "1 Comment"
+msgstr ""
+
+#: ../loop.php:95
+#: ../loop.php:118
+#: ../loop.php:160
+msgid "% Comments"
+msgstr ""
+
+#: ../loop.php:102
+msgid "asides"
+msgstr ""
+
+#: ../loop.php:147
+#, php-format
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr ""
+
+#: ../loop.php:156
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:26
+msgid "Nothing Found"
+msgstr ""
+
+#: ../search.php:28
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: ../sidebar.php:27
+msgid "Archives"
+msgstr ""
+
+#: ../sidebar.php:34
+msgid "Meta"
+msgstr ""
+
+#: ../single.php:18
+#: ../single.php:59
+msgid "&larr;"
+msgstr ""
+
+#: ../single.php:19
+#: ../single.php:60
+msgid "&rarr;"
+msgstr ""
+
+#: ../single.php:45
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../tag.php:16
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../taxonomy.php:61
+msgid "Read More"
+msgstr ""
+
+#: ../theme-options.php:21
+msgid "Rustic Theme Options"
+msgstr ""
+
+#: ../theme-options.php:95
+msgid "Normal Light (No Trees)"
+msgstr ""
+
+#: ../theme-options.php:99
+msgid "Normal Light (Trees)"
+msgstr ""
+
+#: ../theme-options.php:103
+msgid "Pink Light (Trees)"
+msgstr ""
+
+#: ../theme-options.php:107
+msgid "Blue Light (Trees)"
+msgstr ""
+
+#: ../theme-options.php:111
+msgid "Brown Wood (Trees)"
+msgstr ""
+
+#: ../theme-options.php:126
+msgid " Theme Options"
+msgstr ""
+
+#: ../theme-options.php:130
+msgid "Options saved"
+msgstr ""
+
+#: ../theme-options.php:140
+msgid "General Settings"
+msgstr ""
+
+#: ../theme-options.php:149
+msgid "<strong>Choose Theme Style!</strong>"
+msgstr ""
+
+#: ../theme-options.php:152
+msgid "Choose Theme Style"
+msgstr ""
+
+#: ../theme-options.php:181
+msgid "Use <strong>Google web font</strong>?"
+msgstr ""
+
+#: ../theme-options.php:185
+msgid "Check to use <strong>Google web font</strong>."
+msgstr ""
+
+#: ../theme-options.php:188
+msgid "Vist the <a href=\"http://www.google.com/webfonts#HomePlace:home\"><strong>Google web font</strong> website</a>  , choose a font, and paste the code into the boxes below."
+msgstr ""
+
+#: ../theme-options.php:196
+msgid "<strong>Google web font</strong> stylesheet link"
+msgstr ""
+
+#: ../theme-options.php:200
+msgid "Copy and paste <strong>Google web font</strong> stylesheet link here. Example: <br /><code>&lt;link href=\"http://fonts.googleapis.com/css?family=Lancelot\" rel=\"stylesheet\" type=\"text/css\"&gt;</code>"
+msgstr ""
+
+#: ../theme-options.php:208
+msgid "<strong>Google web font</strong> font-family code"
+msgstr ""
+
+#: ../theme-options.php:212
+msgid "Copy and paste <strong>Google web font</strong> font-family code here. Example: <br /><code>font-family: 'Lancelot', cursive;</code>"
+msgstr ""
+
+#: ../theme-options.php:220
+msgid "<strong>Change font color?</strong>"
+msgstr ""
+
+#: ../theme-options.php:224
+msgid "Check to change font color."
+msgstr ""
+
+#: ../theme-options.php:227
+msgid "Check this box to choose your own font color. Leave unchecked for default color (dark grey: 666666)."
+msgstr ""
+
+#: ../theme-options.php:235
+msgid "Font color"
+msgstr ""
+
+#: ../theme-options.php:239
+msgid "Enter the hex value (6 characters long. Can use <strong>numbers 0-9</strong> and <strong>letters a-f</strong>) of the color you want for your text. (ex: indigo is 4b0082). Visit <a href=\"http://www.december.com/html/spec/colorhex.html\" target=\"blank\">This Color Chart</a> for more colors."
+msgstr ""
+
+#: ../theme-options.php:246
+msgid "<strong>Change link hover color?</strong>"
+msgstr ""
+
+#: ../theme-options.php:250
+msgid "Check to change link hover color."
+msgstr ""
+
+#: ../theme-options.php:253
+msgid "Check this box to choose your own link hover color. Leave unchecked for default color (maroon: 790000)."
+msgstr ""
+
+#: ../theme-options.php:261
+msgid "Link hover color"
+msgstr ""
+
+#: ../theme-options.php:265
+msgid "Enter the hex value (6 characters long. Can use <strong>numbers 0-9</strong> and <strong>letters a-f</strong>) of the color you want to see when the cursor hovers over a link. (ex: blue is 0000ff). Visit <a href=\"http://www.december.com/html/spec/colorhex.html\" target=\"blank\">This Color Chart</a> for more colors."
+msgstr ""
+
+#: ../theme-options.php:272
+msgid "<strong>Use logo image?</strong>"
+msgstr ""
+
+#: ../theme-options.php:276
+msgid "Check to use logo image."
+msgstr ""
+
+#: ../theme-options.php:279
+msgid "Check this box to use your own logo image. It will replace the site title and description."
+msgstr ""
+
+#: ../theme-options.php:287
+msgid "Logo image URL"
+msgstr ""
+
+#: ../theme-options.php:291
+msgid "Upload your logo image to the media library. Copy the \"Location of the uploaded file\" code and paste it in here. The URL of your logo image can also be found by going to Media->Library and clicking \"Edit\" under your logo image. Example: <br /><code>http://mysite.com/wordpress/wp-content/uploads/2011/11/my-logo-image.jpg</code>"
+msgstr ""
+
+#: ../theme-options.php:299
+msgid "Portfolio Items per Page"
+msgstr ""
+
+#: ../theme-options.php:303
+msgid "This is how many items will appear on each page of your porfolio. It looks best when you use a multiple of 3 (ex: 3, 6, 9 ...etc.)."
+msgstr ""
+
+#: ../theme-options.php:312
+msgid "Save Options"
+msgstr ""
+
+#: ../post-types/portfolio.php:10
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../post-types/portfolio.php:11
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../post-types/portfolio.php:12
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../post-types/portfolio.php:13
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../post-types/portfolio.php:14
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: ../post-types/portfolio.php:15
+msgid "No portfolio items found"
+msgstr ""
+
+#: ../post-types/portfolio.php:16
+msgid "No portfolio items found in Trash"
+msgstr ""
+
+#: ../post-types/portfolio.php:20
+msgid "Portfolio Items"
+msgstr ""
+
+#: ../post-types/portfolio.php:22
+msgid "Porfolio Item"
+msgstr ""
+
+#: ../post-types/portfolio.php:44
+msgid "Portfolios"
+msgstr ""
+
+#: ../post-types/portfolio.php:45
+msgid "All Portfolios"
+msgstr ""
+
+#: ../post-types/portfolio.php:46
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../post-types/portfolio.php:47
+msgid "New Portfolio Name"
+msgstr ""
+
+#: ../post-types/portfolio.php:66
+msgid "Portfolio Tags"
+msgstr ""
+
+#: ../post-types/portfolio.php:67
+msgid "All Portfolio Tags"
+msgstr ""
+
+#: ../post-types/portfolio.php:68
+msgid "Add New Portfolio Tag"
+msgstr ""
+
+#: ../post-types/portfolio.php:69
+msgid "New Portfolio Tag Name"
+msgstr ""
+
+#: ../post-types/portfolio.php:115
+msgid "Not in Portfolio"
+msgstr ""
+
+#: ../post-types/portfolio.php:129
+msgid "No Portfolio Tags"
+msgstr ""
+
+#: ../post-types/portfolio.php:138
+msgid "Please select a featured image."
+msgstr ""
+
+#: ../post-types/portfolio.php:178
+msgid "Enter a Portfolio Media Link"
+msgstr ""
+
+#: ../post-types/portfolio.php:191
+msgid ""
+"<b>Here are the steps to make a portfolio item work!</b><br><br>\n"
+"<b>1.</b> First select a \"Featured Image\" (see box in right column) for this portfolio item. This Featured Image will appear on your portfolio page as a thumbnail. Be sure to click <b>\"Use as featured image\"</b> instead of \"Insert into Post\".<br><br>\n"
+"<b>2.</b> Put the full link to your media item into the box below. This will open in a light-box when you click the thumbnail image on your portfolio page. You can find the links in the \"Media\"  section of the WordPress admin. Click \"edit\" for the media item and you will see the link at the bottom. Most types of media will play in the light-box, including mp3's and mp4's and Flash flv files. Links to YouTube videos work too!<br><br>\n"
+"<b>3.</b> Choose a \"Portfolio\" (see box in right column).<br><br> \n"
+"<b>4.</b> Write something about your portfolio item in the box above, give the post a title and press Publish.<br><br>\n"
+"<b>5.</b> Go to Appearance->Menus in the WordPress admin and put your portfolio in the menu.<br><br>\n"
+"<b>6.</b> Click the link and admire you're beautiful new portfolio!<br><br>\n"
+"<b>Here are some examples:</b><br><br>\n"
+"\n"
+"<b>1. Images<br><br>\n"
+"<code>http://www.mysite.com/wp-content/uploads/2011/11/my_image.jpg</code><br><br>\n"
+"\n"
+"<b>2. YouTube Video</b><br><br>\n"
+"<code>http://www.youtube.com/watch?v=YCdFFFAxLz0</code><br><br>\n"
+"\n"
+"<b>3. Vimeo Video</b><br><br>\n"
+"<code>http://vimeo.com/32619535</code><br><br>\n"
+"\n"
+"<b>4. MP3 Files</b><br><br>\n"
+"<code>http://www.mysite.com/wp-content/uploads/2011/11/my_song.mp3</code><br><br>\n"
+"\n"
+"<b>5. Flash SWF Files</b> (note: width and height must be attached)<br><br>\n"
+"<code>http://www.mysite.com/wp-content/uploads/2011/11/my_flashfile.swf?width=600&height=300</code><br><br>\n"
+"\n"
+"<b>6. FLV FlashVideo Files</b> (note: width and height must be attached)<br><br>\n"
+"<code>http://www.mysite.com/wp-content/uploads/2011/11/my_flashvideo.flv?width=480&height=270</code><br><br>\n"
+"\n"
+"<b>7. MP4 Video Files</b> (note: width and height must be attached)<br><br>\n"
+"<code>http://www.mysite.com/wp-content/uploads/2011/11/my_video.mp4?width=1280&height=720</code><br><br>\n"
+"\n"
+"Leave blank for no link."
+msgstr ""
+

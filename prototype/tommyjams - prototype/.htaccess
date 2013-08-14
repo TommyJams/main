@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "prototype"
+AuthUserFile "/home5/tommyjam/.htpasswds/public_html/prototype/passwd"
+require valid-user

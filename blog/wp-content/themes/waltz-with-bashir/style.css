@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*
+Theme Name: Waltz With Bashir
+Theme URI: http://www.geli.me/blog/waltz.html
+Description: A Wordpress For GeLi Self, the inspiration comes from a movie named "Waltz With Bashir".
+Version: 1.0
+Author: GeLi
+Author URI: http://www.geli.me
+Tags: Yellow, light, two-columns, fixed-width, right-sidebar
+*/
+
+*{margin:0; padding:0;}
+a{
+	outline:none;
+	color:#fff;
+	text-decoration:none;
+}
+a:hover, a:active{
+	text-decoration:underline;
+}
+img{
+border:none;
+}
+p{
+	margin:15px 0;
+	text-align:justify;
+}
+h1{
+	font-size:23px;
+	margin:30px 0 5px  0;
+}
+.bloginfo{
+	color:#000;
+	margin-bottom:40px;
+}
+body{
+	font:13px/160% Helvetica,Georgia,Arial,sans-serif;
+	color:#000;
+	background:#303E39;	
+}
+#left{
+	width:65%;
+	float:left;
+	background:#BD7D01;	
+}
+#main{
+	width:580px;
+	float:right;
+	padding-right:20px;
+	padding-bottom:30px;
+	min-height:700px;
+}
+.post{
+	margin:10px 0 40px;
+}
+h2{
+	font-size:17px;
+	margin-bottom:5px;
+}
+.meta-above{
+	color:#E0E0E0;
+	font-size:12px;
+}
+.meta-above a{
+	color:#E0E0E0;	
+}
+.meta-above span{
+	margin-right:10px;
+}
+
+.nav .next{
+	float:right;
+}
+
+#right{
+	float:left;
+	color:#fff;
+	padding:100px 20px;
+}
+#right h3{
+	font-size:14px;
+	color:#ccc;
+	margin:0 0 2px;
+}
+#right a{
+	color:#ffbf37;
+}
+#right a:hover{
+	color:#fff;
+}
+#right ul{
+	list-style:none;
+	margin:0 0 20px;
+}
+h3#comments{
+	font-size:14px;
+	margin:40px 0 20px;
+}
+ol#commentlist{
+	margin:15px 0;
+	list-style:none;
+}
+ol#commentlist li{
+	margin:10px 0 30px;
+}
+.avatar{
+	float:left;
+}
+.comment_content{
+	padding-left:10px;
+	float:left;
+	width:510px;
+}
+.comment_meta{
+	font-size:12px;
+}
+.comment_text p{
+	margin:5px 0;
+}
+input, textarea{border:#000 1px solid;padding:2px;background:#BD7D01;}
+h3#addcomment{
+	margin:20px 0;
+}
+.clearboth{
+	clear:both;
+}
+.entry-content ol,.entry-content ul{
+padding:0 20px;
+}
+.entry-content ol li,.entry-content ul li{
+margin:10px 0;
+}
+blockquote{
+border-left:3px solid #99680a;
+padding:0 15px;
+margin-left:20px;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}

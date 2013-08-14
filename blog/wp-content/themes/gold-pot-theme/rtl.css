@@ -1,0 +1,98 @@
+/**
+ * @package WordPress
+ * @subpackage Gold_Pot_Theme
+ * RTL version of WordPress Gold Pot theme by Catarina Yamamoto
+ */
+body{ text-align:right; }
+
+ul#web2 li{float: right;}
+
+#topHeader #searchBox{
+	float: left;
+}
+#rap{
+	background: url('images/img_bg_swirl_rtl.png') no-repeat right 0px;float:right;
+	}
+
+#header span.description{
+	right:250px;
+}
+
+.storycontent {padding-left:0px;padding-right:8px; text-align:right;}
+
+#menu ul ul, #wp-calendar caption, #wp-calendar #prev a { text-align: right; }
+#wp-calendar #next a, .feedback { text-align: left; }
+
+blockquote {
+	border-left: 0;
+	border-right: 5px solid #ccc;
+	margin-left: auto;
+	margin-right: 1.5em;
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+.wp-caption p.wp-caption-text{text-align:center;}
+.storytitle span.titleName{padding-right: 25px;}
+.storytitle span.storyComment{float:right; background: url(images/comment_rtl.gif) no-repeat 0 0; }
+
+
+p, li, .feedback {
+	text-align: right;
+}
+
+acronym, abbr, span.caps, h2, p, li, #header, #menu ul li, #menu ul ul li, #wp-calendar td, .feedback, .meta, .meta a { letter-spacing: normal; }
+
+#commentlist li ul {
+	border-left: 0;
+	border-right: 1px solid #ddd;
+}
+
+
+#commentlist li .avatar {
+	margin-right: 0;
+	margin-left: 12px;
+	float: right;
+}
+
+#contentContainer { padding: 45px 250px 0 20px;}
+
+#header {
+	padding: 58px 250px 0 0;
+	text-align:right;
+}
+
+#menu {
+	left: auto;
+	right: 0px;
+	background: #fff url(images/sidebar.jpg) no-repeat left 0;
+}
+
+#menu form { margin: 0 13px 0 0; }
+
+#menu ul {
+	padding-left: 0;
+	padding-right: 3px;
+}
+
+
+#menu ul ul li {
+	font-weight: normal;
+	padding-left: 0;
+	padding-right: 12px;
+}
+
+#menu ul ul ul.children {
+	padding-left: 0;
+	padding-right: 4px;
+}
+
+#wp-calendar #next a {
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+#wp-calendar #prev a {
+	padding-left: 0;
+	padding-right: 10px;
+}

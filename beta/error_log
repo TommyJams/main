@@ -1,0 +1,37 @@
+[21-Dec-2012 05:08:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:08:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:08:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[21-Dec-2012 05:08:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:08:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:08:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[21-Dec-2012 05:09:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:09:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:09:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[21-Dec-2012 05:09:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:09:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:09:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[21-Dec-2012 05:15:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:15:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:15:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[24-Jan-2013 00:11:34] Invalid IPv6 configuration on server, Please disable or get native IPv6 on your server.
+[24-Jan-2013 00:11:34] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: Invalid curl configuration option in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 960
+[24-Jan-2013 00:11:35] PHP Warning:  curl_setopt_array() [<a href='function.curl-setopt-array'>function.curl-setopt-array</a>]: Array keys must be CURLOPT constants or equivalent integer values in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 936
+[27-Feb-2013 09:11:06] Invalid IPv6 configuration on server, Please disable or get native IPv6 on your server.
+[27-Feb-2013 09:11:06] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: Invalid curl configuration option in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 960
+[27-Feb-2013 09:11:07] PHP Warning:  curl_setopt_array() [<a href='function.curl-setopt-array'>function.curl-setopt-array</a>]: Array keys must be CURLOPT constants or equivalent integer values in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 936
+[04-Mar-2013 08:19:13] Invalid IPv6 configuration on server, Please disable or get native IPv6 on your server.
+[04-Mar-2013 08:19:13] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: Invalid curl configuration option in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 960
+[19-Mar-2013 10:55:46] Resource id #4
+[04-Apr-2013 10:17:15] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/tommyjam/public_html/beta/update.php on line 315
+[04-Apr-2013 10:18:41] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/tommyjam/public_html/beta/update.php on line 315
+[04-Apr-2013 10:19:19] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/tommyjam/public_html/beta/update.php on line 315
+[08-May-2013 16:21:46] Invalid IPv6 configuration on server, Please disable or get native IPv6 on your server.
+[08-May-2013 16:21:46] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: Invalid curl configuration option in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 960
+[08-May-2013 16:21:49] PHP Warning:  curl_setopt_array() [<a href='function.curl-setopt-array'>function.curl-setopt-array</a>]: Array keys must be CURLOPT constants or equivalent integer values in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 936
+[14-Jun-2013 23:49:57] Unknown algorithm. Expected HMAC-SHA256
+[17-Jun-2013 03:24:42] Unknown algorithm. Expected HMAC-SHA256
+[17-Jun-2013 03:28:07] Unknown algorithm. Expected HMAC-SHA256
+[17-Jun-2013 03:28:08] Unknown algorithm. Expected HMAC-SHA256
+[17-Jun-2013 03:29:30] Unknown algorithm. Expected HMAC-SHA256
+[26-Jun-2013 23:34:40] Unknown algorithm. Expected HMAC-SHA256
+[02-Aug-2013 13:28:21] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to us5.api.mailchimp.com:80 (Connection timed out) in /home5/tommyjam/public_html/plugin/newsletter-form/MCAPI.class.php on line 2426

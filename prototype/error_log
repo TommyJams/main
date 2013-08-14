@@ -1,0 +1,85 @@
+[21-Dec-2012 05:08:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:08:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:08:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[21-Dec-2012 05:08:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:08:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:08:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[21-Dec-2012 05:09:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:09:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:09:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[21-Dec-2012 05:09:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:09:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:09:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[21-Dec-2012 05:15:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/leftCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 169
+[21-Dec-2012 05:15:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/mainTiles.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 290
+[21-Dec-2012 05:15:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/rightCommon.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/tommyjam/public_html/beta/index.php on line 313
+[24-Jan-2013 00:11:34] Invalid IPv6 configuration on server, Please disable or get native IPv6 on your server.
+[24-Jan-2013 00:11:34] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: Invalid curl configuration option in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 960
+[24-Jan-2013 00:11:35] PHP Warning:  curl_setopt_array() [<a href='function.curl-setopt-array'>function.curl-setopt-array</a>]: Array keys must be CURLOPT constants or equivalent integer values in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 936
+[27-Feb-2013 09:11:06] Invalid IPv6 configuration on server, Please disable or get native IPv6 on your server.
+[27-Feb-2013 09:11:06] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: Invalid curl configuration option in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 960
+[27-Feb-2013 09:11:07] PHP Warning:  curl_setopt_array() [<a href='function.curl-setopt-array'>function.curl-setopt-array</a>]: Array keys must be CURLOPT constants or equivalent integer values in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 936
+[04-Mar-2013 08:19:13] Invalid IPv6 configuration on server, Please disable or get native IPv6 on your server.
+[04-Mar-2013 08:19:13] PHP Warning:  curl_setopt() [<a href='function.curl-setopt'>function.curl-setopt</a>]: Invalid curl configuration option in /home5/tommyjam/public_html/beta/src/base_facebook.php on line 960
+[19-Mar-2013 10:55:46] Resource id #4
+[04-Apr-2013 10:17:15] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/tommyjam/public_html/beta/update.php on line 315
+[04-Apr-2013 10:18:41] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/tommyjam/public_html/beta/update.php on line 315
+[04-Apr-2013 10:19:19] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/tommyjam/public_html/beta/update.php on line 315
+[06-Apr-2013 02:33:16] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'tommyjam_test'@'localhost' (using password: YES) in /home5/tommyjam/public_html/prototype/connect.php on line 2
+[06-Apr-2013 02:33:16] PHP Warning:  mysql_close(): supplied argument is not a valid MySQL-Link resource in /home5/tommyjam/public_html/prototype/connect.php on line 2
+[06-Apr-2013 02:33:16] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'tommyjam_test'@'localhost' (using password: YES) in /home5/tommyjam/public_html/prototype/connect.php on line 3
+[09-Jun-2013 14:31:38] PHP Parse error:  syntax error, unexpected '<' in /home5/tommyjam/public_html/prototype/include/rightCommon.php on line 183
+[09-Jun-2013 14:33:23] PHP Parse error:  syntax error, unexpected '<' in /home5/tommyjam/public_html/prototype/include/rightCommon.php on line 183
+[09-Jun-2013 14:35:00] PHP Parse error:  syntax error, unexpected '<' in /home5/tommyjam/public_html/prototype/include/rightCommon.php on line 183
+[09-Jun-2013 15:58:01] PHP Parse error:  syntax error, unexpected $end in /home5/tommyjam/public_html/prototype/promoter.php on line 425
+[09-Jun-2013 15:58:10] PHP Parse error:  syntax error, unexpected $end in /home5/tommyjam/public_html/prototype/promoter.php on line 425
+[09-Jun-2013 15:58:15] PHP Parse error:  syntax error, unexpected $end in /home5/tommyjam/public_html/prototype/promoter.php on line 425
+[19-Jun-2013 12:29:35] PHP Parse error:  syntax error, unexpected '[', expecting T_PAAMAYIM_NEKUDOTAYIM in /home5/tommyjam/public_html/prototype/update.php on line 455
+[19-Jun-2013 12:29:39] PHP Parse error:  syntax error, unexpected '[', expecting T_PAAMAYIM_NEKUDOTAYIM in /home5/tommyjam/public_html/prototype/update.php on line 455
+[19-Jun-2013 12:30:21] PHP Parse error:  syntax error, unexpected '[', expecting T_PAAMAYIM_NEKUDOTAYIM in /home5/tommyjam/public_html/prototype/update.php on line 455
+[19-Jun-2013 12:30:48] PHP Parse error:  syntax error, unexpected '[', expecting T_PAAMAYIM_NEKUDOTAYIM in /home5/tommyjam/public_html/prototype/update.php on line 455
+[19-Jun-2013 12:32:01] PHP Parse error:  syntax error, unexpected '[', expecting T_PAAMAYIM_NEKUDOTAYIM in /home5/tommyjam/public_html/prototype/update.php on line 455
+[19-Jun-2013 12:32:19] PHP Parse error:  syntax error, unexpected '[', expecting T_PAAMAYIM_NEKUDOTAYIM in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:18:59] PHP Parse error:  syntax error, unexpected '[', expecting T_PAAMAYIM_NEKUDOTAYIM in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:20:53] PHP Parse error:  syntax error, unexpected '[', expecting T_PAAMAYIM_NEKUDOTAYIM in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:22:25] PHP Parse error:  syntax error, unexpected '[', expecting T_PAAMAYIM_NEKUDOTAYIM in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:31:52] PHP Parse error:  syntax error, unexpected '[' in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:34:09] PHP Parse error:  syntax error, unexpected '[' in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:34:45] PHP Parse error:  syntax error, unexpected '[' in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:42:12] PHP Parse error:  syntax error, unexpected '[' in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:43:47] PHP Parse error:  syntax error, unexpected '[' in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:46:31] PHP Parse error:  syntax error, unexpected '[' in /home5/tommyjam/public_html/prototype/update.php on line 455
+[21-Jun-2013 07:47:57] PHP Parse error:  syntax error, unexpected '[' in /home5/tommyjam/public_html/prototype/update.php on line 457
+[21-Jun-2013 08:04:28] PHP Parse error:  syntax error, unexpected '[' in /home5/tommyjam/public_html/prototype/update.php on line 457
+[29-Jul-2013 00:32:14] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home5/tommyjam/public_html/prototype/connect.php on line 2
+[29-Jul-2013 00:32:14] PHP Warning:  mysql_close(): supplied argument is not a valid MySQL-Link resource in /home5/tommyjam/public_html/prototype/connect.php on line 2
+[29-Jul-2013 00:32:14] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home5/tommyjam/public_html/prototype/connect.php on line 3
+[31-Jul-2013 23:33:33] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home5/tommyjam/public_html/prototype/update.php on line 490
+[31-Jul-2013 23:33:47] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home5/tommyjam/public_html/prototype/update.php on line 490
+[31-Jul-2013 23:53:02] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home5/tommyjam/public_html/prototype/update.php on line 493
+[01-Aug-2013 00:05:12] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 152
+[01-Aug-2013 00:05:15] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 152
+[01-Aug-2013 00:06:01] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 152
+[01-Aug-2013 00:06:06] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 152
+[01-Aug-2013 00:06:08] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 152
+[01-Aug-2013 00:06:14] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 152
+[01-Aug-2013 00:06:28] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 152
+[01-Aug-2013 00:07:07] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 152
+[01-Aug-2013 00:07:10] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 152
+[01-Aug-2013 00:11:10] PHP Parse error:  syntax error, unexpected T_IS_EQUAL, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 153
+[01-Aug-2013 00:11:14] PHP Parse error:  syntax error, unexpected T_IS_EQUAL, expecting ',' or ')' in /home5/tommyjam/public_html/prototype/artist.php on line 153
+[01-Aug-2013 01:02:12] PHP Parse error:  syntax error, unexpected $end in /home5/tommyjam/public_html/prototype/artist.php on line 215
+[01-Aug-2013 01:02:16] PHP Parse error:  syntax error, unexpected $end in /home5/tommyjam/public_html/prototype/artist.php on line 215
+[01-Aug-2013 01:18:54] PHP Parse error:  syntax error, unexpected '<' in /home5/tommyjam/public_html/prototype/artist.php on line 168
+[01-Aug-2013 01:18:57] PHP Parse error:  syntax error, unexpected '<' in /home5/tommyjam/public_html/prototype/artist.php on line 168
+[01-Aug-2013 08:54:25] PHP Fatal error:  Call to undefined function  println() in /home5/tommyjam/public_html/prototype/artist.php on line 157
+[01-Aug-2013 08:54:40] PHP Fatal error:  Call to undefined function  println() in /home5/tommyjam/public_html/prototype/artist.php on line 157
+[01-Aug-2013 08:55:26] PHP Fatal error:  Call to undefined function  println() in /home5/tommyjam/public_html/prototype/artist.php on line 157
+[01-Aug-2013 08:55:31] PHP Fatal error:  Call to undefined function  println() in /home5/tommyjam/public_html/prototype/artist.php on line 157
+[01-Aug-2013 08:55:38] PHP Fatal error:  Call to undefined function  println() in /home5/tommyjam/public_html/prototype/artist.php on line 157
+[01-Aug-2013 08:55:44] PHP Fatal error:  Call to undefined function  println() in /home5/tommyjam/public_html/prototype/artist.php on line 157
+[02-Aug-2013 06:13:17] PHP Parse error:  syntax error, unexpected '{' in /home5/tommyjam/public_html/prototype/dib_reaction.php on line 104
+[02-Aug-2013 06:15:33] PHP Parse error:  syntax error, unexpected '{' in /home5/tommyjam/public_html/prototype/dib_reaction.php on line 104
+[03-Aug-2013 04:09:10] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home5/tommyjam/public_html/prototype/dib_reaction.php on line 206
+[03-Aug-2013 04:10:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home5/tommyjam/public_html/prototype/dib_reaction.php on line 206
+[03-Aug-2013 04:53:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home5/tommyjam/public_html/prototype/dib_reaction.php on line 206

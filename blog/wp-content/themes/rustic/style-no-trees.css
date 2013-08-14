@@ -1,0 +1,36 @@
+/* CSS Document */
+#branding {
+	width: 780px;
+}
+#wrapper {
+	background: url(images-no-trees/final/images/header.png) no-repeat;
+}
+.attachment #wrapper, .page-template-onecolumn-page-php #wrapper, .tax-portfolio #wrapper, .tax-portfolio-tag #wrapper {
+	background: url(images-no-trees/att/images/header-att2.png) no-repeat;
+}
+body {
+	background: url(images-no-trees/final/images/wood_bg.jpg);
+}
+#main {
+	background: url(images-no-trees/final/images/page.png);
+}
+.attachment #main, .page-template-onecolumn-page-php #main, .tax-portfolio #main, .tax-portfolio-tag #main {
+	background: url(images-no-trees/att/images/page-att2.png);
+}
+#tree {
+	/*background: url(images-no-trees/final/images/sidebar.png);*/
+	background-image:none;
+}
+.attachment #tree, .page-template-onecolumn-page-php #tree, .tax-portfolio #tree, .tax-portfolio-tag #tree {
+	/*background: url(images-no-trees/att/images/tree-att.png);*/
+	background-image:none;
+	z-index:-10;
+}
+#footer {
+	background: url(images-no-trees/final/images/footer.png) no-repeat;
+}
+.attachment #footer, .page-template-onecolumn-page-php #footer, .tax-portfolio #footer, .tax-portfolio-tag #footer {
+	background: url(images-no-trees/att/images/footer-att2.png) no-repeat;
+}
+
+

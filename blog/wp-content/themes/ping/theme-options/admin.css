@@ -1,0 +1,25 @@
+﻿.admin-option {
+	width:500px;
+	height:100px;
+}
+.admin-option label {
+	width:200px;
+	float:left;
+	height:100px;
+}
+.admin-option textarea {
+	width:200px;
+	float:right;
+	height:75px;
+}
+.admin-option input {
+	float:left;
+	width:150px;
+	height:25px;
+	margin:0 5px 0 0;
+}
+.textinput {
+	float:right;
+	width:200px;
+	height:100px;
+}
