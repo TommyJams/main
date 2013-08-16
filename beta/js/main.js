@@ -246,7 +246,7 @@
 		{
 			// init the FB JS SDK
 			FB.init({
-			  appId      : '566516890030362', // App ID from the App Dashboard
+			  appId      : '204029036428158', // App ID from the App Dashboard
 			  channelUrl : '//WWW.TOMMYJAMS.COM/BETA/channel.html', // Channel File for x-domain communication
 			  status     : true, // check the login status upon init?
 			  cookie     : true, // set sessions cookies to allow your server to access the session?
