@@ -146,7 +146,7 @@ function check_registration($response, $fb_fields) {
 					?>
 						<iframe src="https://www.facebook.com/plugins/registration?
 									 client_id=<?php echo FACEBOOK_APP_ID;?>&
-									 redirect_uri=http://www.tommyjams.azurewebsites.net/beta/fbconnect.php?registered=fbregistered&
+									 redirect_uri=http://tommyjams.azurewebsites.net/beta/fbconnect.php?registered=fbregistered&
 									 fb_only=true&
 									 fb_register=true&
 									 fields=<?php echo $fb_fields;?>"
