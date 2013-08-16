@@ -53,8 +53,8 @@ if($_POST["accept"])
 		if($status==1)
 		{
 			$SQLs = "SELECT * FROM `$database`.`shop` WHERE link='$link'";
-			$results = mysql_query($SQLs);
-			$a = mysql_fetch_array($results);
+			$result1 = mysql_query($SQLs);
+			$a = mysql_fetch_array($result1);
 			{
 				$gig=$a["gig"];$date=$a["venue_date"];$vtime=$a["venue_time"];
 				$promoter_name=$a["promoter_name"];$promoter=$a["promoter"];
@@ -192,9 +192,18 @@ elseif($_POST["reject"])
 	if (mysql_num_rows($results) == 1) 
 	{
 		$found = mysql_fetch_array($results);
-		$artist_name=$found["name"];
-		$artist_email=$found["email"];
+		$artist_name=$found["artist_name"];
+		
 		$gig=$found["gig_name"];
+		$promoter_name=$found["promoter_name"];
+		
+		$q2 = "SELECT * FROM `$database`.`members` WHERE link='$artist_id'";
+		$result_set2 = mysql_query($q2);	
+		if (mysql_num_rows($result_set2) == 1) 
+		{
+				$found = mysql_fetch_array($result_set2);
+				$artist_email=$found["email"];
+		}
 		
 		$to = $artist_email;
 		$subject = "Dib Rejected for $gig";

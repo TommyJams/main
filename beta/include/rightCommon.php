@@ -21,7 +21,7 @@
 
 		<div id="blogBox" class="parent">
 			<div id="enclosingBlogButton">
-				<a href="http://www.tommyjams.com/blog/" target="_blank">Blog</a>
+				<a href="http://www.tommyjams.com/blog" target="_blank">Blog</a>
 			</div>
 		</div>
 
@@ -128,7 +128,7 @@
 						</td>
 					</tr>
 				</table>*/
-				print("<div class='fb-login-button' size='large' onlogin=facebookLoginCallback(); registration-url='http://www.tommyjams.com/beta/fbconnect.php?registered=no'>
+				print("<div class='fb-login-button' size='large' onlogin=facebookLoginCallback(); registration-url='http://www.tommyjams.azurewebsites.net/beta/fbconnect.php?registered=no'>
 				</div>");
 			}
 			?>
