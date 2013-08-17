@@ -1,6 +1,6 @@
 <?php
 
-require("../../plugin/phpmailer/class.phpmailer.php");
+require("../plugin/phpmailer/class.phpmailer.php");
 $mailer = new PHPMailer();
 $mailer->IsSMTP();
 $mailer->Host = 'ssl://smtp.live.com';
