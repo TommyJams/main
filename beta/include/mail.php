@@ -1,4 +1,6 @@
 <?php
+ini_set("SMTP","smtp.live.com" ); 
+ini_set('sendmail_from', 'tommyjams.bizspark@outlook.com');
 
 $message = "
 <html>
