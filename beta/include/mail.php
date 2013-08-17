@@ -3,11 +3,11 @@
 require("../plugin/phpmailer/class.phpmailer.php");
 $mailer = new PHPMailer();
 $mailer->IsSMTP();
-$mailer->Host = 'ssl://smtp.live.com';
+$mailer->Host = 'ssl://smtp.gmail.com';
 $mailer->Port = 587; //can be 587
 $mailer->SMTPAuth = TRUE;
 // Change this to your gmail address
-$mailer->Username = 'tommyjams.bizspark@outlook.com';  
+$mailer->Username = 'testpromoter@gmail.com';  
 // Change this to your gmail password
 $mailer->Password = '1tommyblah';  
 // Change this to your gmail address
