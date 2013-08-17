@@ -1,39 +1,5 @@
 <?php
 
-static bool SendEmailNotification(string newIpAddress)
-{
-    bool success = false;
-
-    //
-    // Send email using live account
-    //
-    SmtpClient mailClient = new SmtpClient("smtp.live.com", 587);
-    mailClient.UseDefaultCredentials = false;
-    mailClient.EnableSsl = true;
-
-    MailMessage message = new MailMessage("tommyjams.bizspark@outlook.com", goyalarpit.09@gmail.com);
-    message.Subject = "Mail Test";
-    message.Body = "Hello! It works!";
-    message.Priority = MailPriority.High;
-
-    NetworkCredential credentials =
-        new NetworkCredential("tommyjams.bizspark@outlook.com", "1tommyblah", "");
-    mailClient.Credentials = credentials;
-
-    try
-    {
-        mailClient.Send(message);
-        success = true;
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine(ex);
-    }
-
-    return success;
-} 
-
-/*
 $message = "
 <html>
 <head>
@@ -60,7 +26,7 @@ $message = "
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
 // More headers
-$headers .= 'From: admin@tommyjams.com' . "\r\n";
+$headers .= 'From: tommyjams.bizspark@outlook.com' . "\r\n";
 
-mail($to,$subject,$message,$headers); */
+mail($to,$subject,$message,$headers);
 ?>
