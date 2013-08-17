@@ -1,6 +1,6 @@
 <?php
 
-require("class.phpmailer.php");
+require("../../plugin/phpmailer/class.phpmailer.php");
 $mailer = new PHPMailer();
 $mailer->IsSMTP();
 $mailer->Host = 'ssl://smtp.live.com';
@@ -11,13 +11,32 @@ $mailer->Username = 'tommyjams.bizspark@outlook.com';
 // Change this to your gmail password
 $mailer->Password = '1tommyblah';  
 // Change this to your gmail address
-$mailer->From = 'tommyjams.bizspark@outlook.com';  
+$mailer->From = 'admin@tommyjams.com';  
 // This will reflect as from name in the email to be sent
-$mailer->FromName = 'Your Name'; 
-$mailer->Body = 'This is the body of your email.';
-$mailer->Subject = 'Tommy Jams';
+$mailer->FromName = 'TommyJams Admin'; 
+$mailer->Body = "<html>
+<head>
+<title>$sub</title>
+</head>
+<body>
+<div style='background:#000; padding:10px;'>
+	<table style='text-align:center; width: 100%; padding:50px; padding-top:20px;'>
+		<tr style='margin-top:20px;'>
+			<img src='http://www.tommyjams.com/beta/images/tjlogo_small.png'>
+		</tr>
+		<tr style='margin-top:50px; background:#ffcc00; padding:10px;'>
+			$mess
+		</tr>
+		<!--<tr>
+			<font color=white size=2>To unsubscribe <a href='update.php?un=$un'>click here
+		</tr>-->
+	</table>
+</div>
+</body>
+</html>";
+$mailer->Subject = $subject;
 // This is where you want your email to be sent
-$mailer->AddAddress('goyalarpit.09@gmail.com');  
+$mailer->AddAddress($to);  
 if(!$mailer->Send())
 {
     echo "Message was not sent<br/ >";
