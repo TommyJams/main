@@ -1,51 +1,37 @@
 <?php
 
-require("../plugin/phpmailer/class.phpmailer.php");
-$mailer = new PHPMailer();
-$mailer->IsSMTP();
-$mailer->Host = 'ssl://smtp.gmail.com';
-$mailer->Port = 587; //can be 587
-$mailer->SMTPAuth = TRUE;
-// Change this to your gmail address
-$mailer->Username = 'testpromoter@gmail.com';  
-// Change this to your gmail password
-$mailer->Password = '1tommyblah';  
-// Change this to your gmail address
-$mailer->From = 'admin@tommyjams.com';  
-// This will reflect as from name in the email to be sent
-$mailer->FromName = 'TommyJams Admin'; 
-$mailer->Body = "<html>
-<head>
-<title>$sub</title>
-</head>
-<body>
-<div style='background:#000; padding:10px;'>
-	<table style='text-align:center; width: 100%; padding:50px; padding-top:20px;'>
-		<tr style='margin-top:20px;'>
-			<img src='http://www.tommyjams.com/beta/images/tjlogo_small.png'>
-		</tr>
-		<tr style='margin-top:50px; background:#ffcc00; padding:10px;'>
-			$mess
-		</tr>
-		<!--<tr>
-			<font color=white size=2>To unsubscribe <a href='update.php?un=$un'>click here
-		</tr>-->
-	</table>
-</div>
-</body>
-</html>";
-$mailer->Subject = $subject;
-// This is where you want your email to be sent
-$mailer->AddAddress($to);  
-if(!$mailer->Send())
+static bool SendEmailNotification(string newIpAddress)
 {
-    echo "Message was not sent<br/ >";
-    echo "Mailer Error: " . $mailer->ErrorInfo;
-}
-else
-{
-    echo "Message has been sent";
-}
+    bool success = false;
+
+    //
+    // Send email using live account
+    //
+    SmtpClient mailClient = new SmtpClient("smtp.live.com", 587);
+    mailClient.UseDefaultCredentials = false;
+    mailClient.EnableSsl = true;
+
+    MailMessage message = new MailMessage("tommyjams.bizspark@outlook.com", goyalarpit.09@gmail.com);
+    message.Subject = "Mail Test";
+    message.Body = "Hello! It works!";
+    message.Priority = MailPriority.High;
+
+    NetworkCredential credentials =
+        new NetworkCredential("tommyjams.bizspark@outlook.com", "1tommyblah", "");
+    mailClient.Credentials = credentials;
+
+    try
+    {
+        mailClient.Send(message);
+        success = true;
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex);
+    }
+
+    return success;
+} 
 
 /*
 $message = "
