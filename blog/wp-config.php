@@ -19,13 +19,13 @@
 define('DB_NAME', 'tommyjam_wrd1');
 
 /** MySQL database username */
-define('DB_USER', 'tommyjam_wrd1');
+define('DB_USER', 'tommyjams');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'P0lZIPRqdZ');
+define('DB_PASSWORD', '1tommyblah');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'tommyjamsmain.cloudapp.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
