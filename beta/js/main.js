@@ -463,5 +463,5 @@
 
 	function facebookLoginCallback()
 	{
-		window.location = "http://www.tommyjams.com/beta/fbconnect.php?registered=yes";
+		window.location = "http://tommyjams.azurewebsites.net/beta/fbconnect.php?registered=yes";
 	}
