@@ -39,7 +39,7 @@ $message = "
 	$mail->Host = 'smtp.gmail.com';
 	$mail->Port = 465;
 	$mail->Username = 'tommyjams.official@gmail.com';
-	$mail->Password = '1tommyblah';           
+	$mail->Password = '1tommyblaH!';           
 	$mail->SetFrom("tommyjams.official@gmail.com", "TommyJams Admin");
 	$mail->IsHTML(true);
 	$mail->Subject = $subject;
