@@ -13,25 +13,25 @@
                         image	: 'images/background/OneNiteStand_resize.jpg',
                         title   : 'One Nite Stand',
                         details : 'Dance Rock',
-						link	: 'http://www.tommyjams.com/blog/'
+						link	: '/blog/'
                     },
 					{
                         image	: 'images/background/CrossLegacy_resize.jpg',
                         title   : 'Cross Legacy',
                         details : 'Christian Rock',
-						link	: 'http://www.tommyjams.com/blog/'
+						link	: '/blog/'
                     },
                     {
                         image	: 'images/background/Solder2_resize.jpg',
                         title   : 'Solder',
                         details : '\'Feel Good\' Rock',
-						link	: 'http://www.tommyjams.com/blog/'
+						link	: '/blog/'
                     },
 					{
                         image	: 'images/background/Aks_resize.jpg',
                         title   : 'Aks',
                         details : 'Indo-Asian Rock/Fusion',
-						link	: 'http://www.tommyjams.com/blog/'
+						link	: '/blog/'
                     }
                 ]
             }

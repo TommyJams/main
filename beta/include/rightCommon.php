@@ -21,7 +21,7 @@
 
 		<div id="blogBox" class="parent">
 			<div id="enclosingBlogButton">
-				<a href="http://www.tommyjams.com/blog" target="_blank">Blog</a>
+				<a href="/blog" target="_blank">Blog</a>
 			</div>
 		</div>
 
