@@ -55,7 +55,7 @@
 				<h1 style="text-align:center;">Fans</h1>
 			</div>
 			<div class="cover boxcaption" style="top:100%;">
-				<a href="http://www.tommyjams.com/blog">
+				<a href="/blog">
 					<!--<h1 style="text-align:center;">Fans</h1>-->
 					<p style="padding: 3px 10px; text-align:center; font-size:16px;">
 						Follow your favorite artists.
