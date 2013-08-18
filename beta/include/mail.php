@@ -2,7 +2,7 @@
 //ini_set("SMTP","ssl://smtp.gmail.com" ); 
 //ini_set('sendmail_from', 'testpromoter.tommy@gmail.com');
 //ini_set('smtp_port', '587');
-ini_set('extension','php_openssl.dll');
+//ini_set('extension','php_openssl.dll');
 
 $message = "
 <html>
@@ -40,7 +40,7 @@ $message = "
 	$mail->Port = 465;
 	$mail->Username = 'testpromoter.tommy@gmail.com';
 	$mail->Password = '1tommyblah1';           
-	//$mail->SetFrom($from, $from_name);
+	$mail->SetFrom("testpromoter.tommy@gmail.com", "TommyJams Admin");
 	$mail->IsHTML(true);
 	$mail->Subject = $subject;
 	$mail->Body = $message;
