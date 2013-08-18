@@ -18,7 +18,7 @@ $message = "
 			$mess
 		</tr>
 		<!--<tr>
-			<font color=white size=2>To unsubscribe <a href='update.php?un=$un'>click here
+			<font color=white size=2>To unsubscribe <a href='update.php?un=true'>click here
 		</tr>-->
 	</table>
 </div>
