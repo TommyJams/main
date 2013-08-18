@@ -27,6 +27,9 @@ $message = "
 </html>
 ";
 
+//	$headers = "MIME-Version: 1.0" . "\r\n";
+//	$headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
+
     require_once("../plugin/phpmailer/class.phpmailer.php");
     $mail = new PHPMailer();  // create a new object
 	$mail->IsSMTP(); // enable SMTP
@@ -38,6 +41,7 @@ $message = "
 	$mail->Username = 'testpromoter.tommy@gmail.com';
 	$mail->Password = '1tommyblah';           
 	//$mail->SetFrom($from, $from_name);
+	$mail->IsHTML(true);
 	$mail->Subject = $subject;
 	$mail->Body = $message;
 	$mail->AddAddress($to);
