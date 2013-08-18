@@ -33,7 +33,7 @@ $message = "
 	$mail->SMTPAuth = true;  // authentication enabled
 	$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
 	$mail->Host = 'smtp.gmail.com';
-	$mail->Port = 587;
+	$mail->Port = 465;
 	$mail->Username = 'testpromoter.tommy@gmail.com';
 	$mail->Password = '1tommyblah';           
 	//$mail->SetFrom($from, $from_name);
