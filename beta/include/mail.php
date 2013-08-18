@@ -6,7 +6,7 @@ ini_set('smtp_port', '587');
 $message = "
 <html>
 <head>
-<title>$sub</title>
+<title>$subject</title>
 </head>
 <body>
 <div style='background:#000; padding:10px;'>
@@ -47,6 +47,7 @@ $message = "
 		$error = 'Message sent!';
 		return true;
 	}
+    console.log('$error');
 
 /*
 // Always set content-type when sending HTML email
