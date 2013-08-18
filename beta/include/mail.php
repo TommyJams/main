@@ -38,9 +38,9 @@ $message = "
 	$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
 	$mail->Host = 'smtp.gmail.com';
 	$mail->Port = 465;
-	$mail->Username = 'testpromoter.tommy@gmail.com';
-	$mail->Password = '1tommyblah1';           
-	$mail->SetFrom("admin@tommyjams.com", "TommyJams Admin");
+	$mail->Username = 'tommyjams.official@gmail.com';
+	$mail->Password = '1tommyblah';           
+	$mail->SetFrom("tommyjams.official@gmail.com", "TommyJams Admin");
 	$mail->IsHTML(true);
 	$mail->Subject = $subject;
 	$mail->Body = $message;
