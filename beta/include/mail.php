@@ -1,7 +1,8 @@
 <?php
-ini_set("SMTP","ssl://smtp.gmail.com" ); 
-ini_set('sendmail_from', 'testpromoter.tommy@gmail.com');
-ini_set('smtp_port', '587');
+//ini_set("SMTP","ssl://smtp.gmail.com" ); 
+//ini_set('sendmail_from', 'testpromoter.tommy@gmail.com');
+//ini_set('smtp_port', '587');
+ini_set('extension','php_openssl.dll');
 
 $message = "
 <html>
