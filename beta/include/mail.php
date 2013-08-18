@@ -1,8 +1,31 @@
 <?php
-ini_set("SMTP","tls://smtp.gmail.com" ); 
-ini_set('sendmail_from', 'tommyjams.official@gmail.com');
+ini_set("SMTP","ssl://smtp.gmail.com" ); 
+ini_set('sendmail_from', 'testpromoter.tommy@gmail.com');
 ini_set('smtp_port', '587');
 
+    require_once("../plugin/phpmailer/class.phpmailer.php");
+    $mail = new PHPMailer();  // create a new object
+	$mail->IsSMTP(); // enable SMTP
+	$mail->SMTPDebug = 0;  // debugging: 1 = errors and messages, 2 = messages only
+	$mail->SMTPAuth = true;  // authentication enabled
+	$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
+	$mail->Host = 'smtp.gmail.com';
+	$mail->Port = 587;
+	$mail->Username = 'testpromoter.tommy@gmail.com';
+	$mail->Password = '1tommyblah';           
+	//$mail->SetFrom($from, $from_name);
+	$mail->Subject = $subject;
+	$mail->Body = $message;
+	$mail->AddAddress($to);
+	if(!$mail->Send()) {
+		$error = 'Mail error: '.$mail->ErrorInfo; 
+		return false;
+	} else {
+		$error = 'Message sent!';
+		return true;
+	}
+
+/*
 $message = "
 <html>
 <head>
@@ -31,5 +54,5 @@ $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
 // More headers
 $headers .= 'From: tommyjams.official@gmail.com' . "\r\n";
 
-mail($to,$subject,$message,$headers);
+mail($to,$subject,$message,$headers);*/
 ?>
