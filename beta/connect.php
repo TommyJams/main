@@ -5,7 +5,7 @@ if (!$connection) {
 	die("Database connection failed: " . mysql_error());
 }
 
-$database = "tommyjamsmaindb";
+$database = "tommyjam_shop";
 
 
 $db_select = mysql_select_db($database,$connection);
