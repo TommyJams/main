@@ -191,7 +191,7 @@ elseif(isset($_SESSION['username_artist']))
                 Login With Facebook
             </h3>
 			<div id="loginBoxDetails">
-				<div class='fb-login-button'  fb_only='true' fb_register='true' size='xlarge' onlogin=facebookLoginCallback(); registration-url='http://tommyjams.azurewebsites.net/beta/fbconnect.php?registered=no'></div>
+				<div class='fb-login-button'  fb_only='true' fb_register='true' size='xlarge' onlogin=facebookLoginCallback(); registration-url='http://tommyjams.com/beta/fbconnect.php?registered=no'></div>
 			</div>
         </center>
     </div>

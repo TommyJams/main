@@ -128,7 +128,7 @@
 						</td>
 					</tr>
 				</table>*/
-				print("<div class='fb-login-button' size='large' onlogin=facebookLoginCallback(); registration-url='http://tommyjams.azurewebsites.net/beta/fbconnect.php?registered=no'>
+				print("<div class='fb-login-button' size='large' onlogin=facebookLoginCallback(); registration-url='http://tommyjams.com/beta/fbconnect.php?registered=no'>
 				</div>");
 			}
 			?>
