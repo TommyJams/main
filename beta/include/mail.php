@@ -1,6 +1,6 @@
 <?php
-ini_set("SMTP","ssl://smtp.live.com" ); 
-ini_set('sendmail_from', 'tommyjams.bizspark@outlook.com');
+ini_set("SMTP","tls://smtp.gmail.com" ); 
+ini_set('sendmail_from', 'tommyjams.official@gmail.com');
 ini_set('smtp_port', '587');
 
 $message = "
@@ -29,7 +29,7 @@ $message = "
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
 // More headers
-$headers .= 'From: tommyjams.bizspark@outlook.com' . "\r\n";
+$headers .= 'From: tommyjams.official@gmail.com' . "\r\n";
 
 mail($to,$subject,$message,$headers);
 ?>
