@@ -40,7 +40,7 @@ $message = "
 	$mail->Port = 465;
 	$mail->Username = 'testpromoter.tommy@gmail.com';
 	$mail->Password = '1tommyblah1';           
-	$mail->SetFrom("testpromoter.tommy@gmail.com", "TommyJams Admin");
+	$mail->SetFrom("admin@tommyjams.com", "TommyJams Admin");
 	$mail->IsHTML(true);
 	$mail->Subject = $subject;
 	$mail->Body = $message;
