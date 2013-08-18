@@ -1,6 +1,7 @@
 <?php
 ini_set("SMTP","ssl://smtp.live.com" ); 
 ini_set('sendmail_from', 'tommyjams.bizspark@outlook.com');
+ini_set('smtp_port', '587');
 
 $message = "
 <html>
