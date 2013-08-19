@@ -184,7 +184,7 @@ function check_registration($response, $fb_fields) {
 									$password=rand(111111,9999999);
 									//$password=$response["registration"]["password"];
 									$password=md5($password);
-									$username=$response["registration"]["name"];
+									$username=mysql_real_escape_string($response["registration"]["name"]);
 									$city_country=$response["registration"]["location"]["name"];
 									$split=explode(",", $city_country); //Eg. Split "Bangalore, India" into "Bangalore" and "India"
 									if ($split[2]) //Eg. "Bankok, Krung Thep, Thailand"
