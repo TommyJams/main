@@ -26,8 +26,8 @@ if($_POST["accept"])
 		die("Database query failed: " . mysql_error());
 	}
 	
-	$SQLs = "UPDATE `$database`.`transaction` SET status=2 WHERE gig_id='$link' AND artist_id!=$artist_id";
-	$results = mysql_query($SQLs); 
+/*	$SQLs = "UPDATE `$database`.`transaction` SET status=2 WHERE gig_id='$link' AND artist_id!=$artist_id";
+	$results = mysql_query($SQLs); */
 
 	$SQLs = "SELECT * FROM `$database`.`transaction` WHERE gig_id='$link'";
 	$results = mysql_query($SQLs);
@@ -100,7 +100,8 @@ if($_POST["accept"])
 			</center>
 			";
 		}
-		elseif($status==2)
+//		elseif($status==2)
+		elseif($status==4)
 		{
 			$subject = "Dib Rejected for $gig";
 			$mess="<p style='text-align:left;'>
