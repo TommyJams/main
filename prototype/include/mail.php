@@ -35,14 +35,14 @@ $message = "
 	$mail->IsSMTP(); // enable SMTP
 	$mail->SMTPDebug = 1;  // debugging: 1 = errors and messages, 2 = messages only
 	$mail->SMTPAuth = true;  // authentication enabled
-	$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
+	$mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for GMail
 /*	$mail->Host = 'smtp.gmail.com';
 	$mail->Port = 465; 
 	$mail->Username = 'tommyjams.official@gmail.com';
 	$mail->Password = '1tommyblah1';           
 	$mail->SetFrom("tommyjams.official@gmail.com", "TommyJams Admin"); */
 	
-	$mail->enableSsl="true";
+//	$mail->enableSsl="true";
 	$mail->Host = 'smtp.live.com';
 	$mail->Port = 25;
 	$mail->Username = 'alerts@tommyjams.com';
