@@ -133,6 +133,8 @@ if($_POST["accept"])
 		}
 		include("include/mail.php");
 
+		$SQLs = "UPDATE `$database`.`transaction` SET status=2 WHERE gig_id='$link' AND artist_id!=$artist_id";
+		
 		$to = "alerts@tommyjams.com";
 		include("include/mail.php");
 	}	
@@ -177,6 +179,8 @@ if($_POST["accept"])
 				</center>
 				";
 		include("include/mail.php");
+		
+		
 
 		$to = "alerts@tommyjams.com";
 		include("include/mail.php");
