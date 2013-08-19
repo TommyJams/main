@@ -136,8 +136,8 @@ if($_POST["accept"])
 		$to = "alerts@tommyjams.com";
 		include("include/mail.php");
 		
-		$SQLs = "UPDATE `$database`.`transaction` SET status=2 WHERE gig_id='$link' AND artist_id!=$artist_id";
-		$results = mysql_query($SQLs);
+	/*	$SQLs = "UPDATE `$database`.`transaction` SET status=2 WHERE gig_id='$link' AND artist_id!=$artist_id";
+		$results = mysql_query($SQLs); */
 	}	
 
 	$q2 = "SELECT * FROM `$database`.`members` WHERE fb_id='$username'";
