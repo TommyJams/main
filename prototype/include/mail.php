@@ -42,6 +42,7 @@ $message = "
 	$mail->Password = '1tommyblah1';           
 	$mail->SetFrom("tommyjams.official@gmail.com", "TommyJams Admin"); */
 	
+	$mail->enableSsl="true";
 	$mail->Host = 'smtp.live.com';
 	$mail->Port = 25;
 	$mail->Username = 'alerts@tommyjams.com';
