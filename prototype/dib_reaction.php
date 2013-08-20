@@ -133,12 +133,13 @@ if($_POST["accept"])
 		}
 		include("include/mail.php");
 
-		$SQLs = "UPDATE `$database`.`transaction` SET status=2 WHERE gig_id='$link' AND artist_id=$artist_id AND status=4";
-		
 		$to = "alerts@tommyjams.com";
 		include("include/mail.php");
 	}	
 
+	$SQLs = "UPDATE `$database`.`transaction` SET status=2 WHERE gig_id='$link' AND artist_id=$artist_id AND status=4";
+	$results = mysql_query($SQLs);
+	
 	$q2 = "SELECT * FROM `$database`.`members` WHERE fb_id='$username'";
 	$result_set2 = mysql_query($q2);
 	if (mysql_num_rows($result_set2) == 1) 
