@@ -100,7 +100,10 @@ if($_POST["accept"])
 			</center>
 			";
 		}
-//		elseif($status==2)
+		elseif($status==2)
+		{
+			continue;
+		}
 		elseif($status==4)
 		{
 			$subject = "Dib Rejected for $gig";
@@ -138,7 +141,7 @@ if($_POST["accept"])
 	}	
 
 	$SQLs = "UPDATE `$database`.`transaction` SET status=2 WHERE gig_id='$link' AND status=4";
-	$results = mysql_query($SQLs);
+	$results2 = mysql_query($SQLs);
 	
 	$q2 = "SELECT * FROM `$database`.`members` WHERE fb_id='$username'";
 	$result_set2 = mysql_query($q2);
