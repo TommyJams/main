@@ -28,9 +28,9 @@
 						link	: '/blog/'
                     },
 					{
-                        image	: 'images/background/Aks_resize.jpg',
-                        title   : 'Aks',
-                        details : 'Indo-Asian Rock/Fusion',
+                        image	: 'images/background/parvaaz_resize.jpg',
+                        title   : 'Parvaaz',
+                        details : 'Kashmiri Rock',
 						link	: '/blog/'
                     }
                 ]
