@@ -126,7 +126,7 @@ else if(!file_exists($users) && $user!=""){$users="https://graph.facebook.com/".
 </head>
 <body>
 
-	<?php	include("include/leftCommon.php");	?>
+	<?	include("include/leftCommon.php");	?>
 
 	<div id="main-container">
 		<div id="lefty" style="display:block;">
