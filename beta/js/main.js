@@ -26,6 +26,12 @@
                         title   : 'Solder',
                         details : '\'Feel Good\' Rock',
 						link	: '/blog/'
+                    },
+					{
+                        image	: 'images/background/parvaaz_resize.jpg',
+                        title   : 'Parvaaz',
+                        details : 'Kashmiri Rock',
+						link	: '/blog/'
                     }
                 ]
             }
