@@ -24,39 +24,3 @@
 		</h4>
 	</a>
 </div>
-
-<div id="loading-indicator"></div>
-
-<div id="fb-root"></div>
-
-<!-- -------------------------------------------------------------- -->
-<!-- Logo		 											   	    -->
-<!-- -------------------------------------------------------------- -->
-<div id="logoContainer">
-	<a href="index.php">
-		<img alt="Home" title="Home" src="images/tjlogo_small.png">
-	</a>	
-	<div id="fbLikeContainer">
-		<div class="fb-like" data-href="http://www.facebook.com/tommyjams.live" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false" data-font="arial" data-colorscheme="dark">
-		</div>
-	</div>
-</div>
-
-<!-- -------------------------------------------------------------- -->
-<!-- Left Sidebar 											   	    -->
-<!-- -------------------------------------------------------------- -->
-<div id="leftSidebarSmall">
-    <!--<img src="images/icons/sidebar/icon_right_arrow.png">-->
-</div>
-
-<div id="leftSidebarBox">
-    <ul>
-        <li><a href="aboutus.php" 	target="_blank" title="About Us" 		alt="About Us"><img src="images/icons/sidebar/about_1.png"/></a></li>
-        <li><a href="terms.php" 	target="_blank" title="Terms of Use" 	alt="Terms of Use"><img src="images/icons/sidebar/terms_1.png"/></a></li>
-        <!--<li><a href="faq.php" title="FAQ" alt="FAQ"><img src="images/icons/sidebar/faq_1.png" style="width:100%; height:100%;"/></a></li>-->
-        <li><a href="careers.php" 	target="_blank" title="Careers" 		alt="Careers"><img src="images/icons/sidebar/careers_1.png"/></a></li>
-        <li><a href="press.php" 	target="_blank" title="Press" 			alt="Press"><img src="images/icons/sidebar/press_1.png"/></a></li>
-        <li><a href="advertise.php" target="_blank" title="Advertise" 		alt="Advertise"><img src="images/icons/sidebar/advertise_1.png"/></a></li>
-        <li><a href="help.php" 		target="_blank" title="Help" 			alt="Help"><img src="images/icons/sidebar/help_1.png"/></a></li>
-    </ul>
-</div>
