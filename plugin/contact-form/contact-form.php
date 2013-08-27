@@ -53,7 +53,22 @@
 	
 	$mail=new PHPMailer();
 	
-	$mail->CharSet='UTF-8';
+	$to = "contact@tommyjams.com";
+	$sender = "alerts@tommyjams.com";
+	$subject = "TommyJams Landing Page: Contact form";
+	
+	$message = "
+	<html>
+	<head>
+	<title>$subject</title>
+	</head>
+	<body>
+		$body
+	</body>
+	</html>
+	";
+	
+	/*$mail->CharSet='UTF-8';
 	
 	$mail->SetFrom($values['contact-form-mail'],$values['contact-form-name']); 
 	$mail->AddReplyTo($values['contact-form-mail'],$values['contact-form-name']); 
@@ -75,7 +90,21 @@
 	}
 	
 	$mail->Subject=CONTACT_FORM_SUBJECT;
-	$mail->MsgHTML($body);
+	$mail->MsgHTML($body); */
+	
+	$mail->IsSMTP(); // enable SMTP
+	$mail->SMTPDebug = 1;  // debugging: 1 = errors and messages, 2 = messages only
+	$mail->SMTPAuth = true;  // authentication enabled
+	$mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for GMail
+	$mail->Host = 'smtp.live.com';
+	$mail->Port = 25;
+	$mail->Username = 'alerts@tommyjams.com';
+	$mail->Password = '1tommyblah';           
+	$mail->SetFrom($sender, "TommyJams Admin");
+	$mail->IsHTML(true);
+	$mail->Subject = $subject;
+	$mail->Body = $message;
+	$mail->AddAddress($to);
 
 	if(!$mail->Send())
 	{
