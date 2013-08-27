@@ -128,6 +128,8 @@ else if(!file_exists($users) && $user!=""){$users="https://graph.facebook.com/".
 
 	<?	include("include/leftCommon.php");	?>
 
+    <div id="background-overlay"></div>
+
 	<div id="main-container">
 		<div id="lefty" style="display:block;">
 		</div>
