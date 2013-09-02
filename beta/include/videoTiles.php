@@ -63,6 +63,7 @@ switch($thisMonth) {
         <li><h1>June</h1></li>
         <li><h1>July</h1></li>
         <li><h1>August</h1></li>
+        <li><h1>September</h1></li>
 	</ul>
 </div>
 
