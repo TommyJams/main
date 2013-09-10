@@ -18,11 +18,11 @@ session_start();
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-	<meta property="og:title" content="One Bengaluru One Music: Sonal Bhatt" />
+	<meta property="og:title" content="One Bengaluru One Music: Megha Neehar" />
 
 	<meta property="og:type" content="website" />
 
-	<meta property="og:image" content="http://tommyjams.com/beta/images/radioone/artists/sonalbhatt.jpg"/>
+	<meta property="og:image" content="http://tommyjams.com/beta/images/radioone/artists/meghaneehar.jpg"/>
 
 	<meta property="og:url" content="http://tommyjams.com/beta/radioone.php" />
 
