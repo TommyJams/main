@@ -18,7 +18,7 @@ session_start();
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-	<meta property="og:title" content="One Bengaluru One Music: Megha Neehar" />
+	<meta property="og:title" content="One Bengaluru One Music: Megha and Neehar" />
 
 	<meta property="og:type" content="website" />
 
